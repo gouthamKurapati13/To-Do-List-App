@@ -118,3 +118,12 @@ li::before {
 .To-Do-Container ul li i {
     font-size: 2rem;
 }
+
+@media (max-width: 768px) {
+    .To-Do-Container {
+        margin: 1rem auto;
+        width: 90vw;
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+}
